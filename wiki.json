@@ -1,0 +1,16 @@
+{
+  "queryType" : "topN",
+  "dataSource" : "wikipedia",
+  "intervals" : ["2015-09-12/2015-09-13"],
+  "granularity" : "all",
+  "dimension" : "page",
+  "metric" : "count",
+  "threshold" : 10,
+  "aggregations" : [
+    {
+      "type" : "count",
+      "name" : "count"
+    }
+  ],
+  "email_heading": "wikipedia summary"
+}
